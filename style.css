@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    background-color: rgb(222, 223, 224);
+    border:solid;
+    margin:10px;
+    padding:10px;
+    margin-right:auto;
+    width:400px;
+    height:150px;
+    flex-direction: column;
+}
