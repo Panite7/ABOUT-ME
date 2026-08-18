@@ -1,0 +1,39 @@
+.profile {
+  border-radius: 200px;
+  border:solid black 3px;
+  width: 220px;
+  height: 220px; 
+  object-fit: cover;
+  float: right; 
+}
+
+.buttoning {  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(150, 150, 150);
+  height:50px;
+  border:solid
+}
+
+.info-box {
+  color: rgb(2, 0, 0);
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.about-main {
+  display: flex;
+  justify-content: center;    
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+  text-align: left;          
+}
+
+.socials {
+overflow-y:auto;
+height: 200px;
+}

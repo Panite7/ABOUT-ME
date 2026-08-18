@@ -1,15 +1,35 @@
 body {
-    background-color: white;
-    font-family: Arial, sans-serif;
+  background-color: rgb(150, 150, 150);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  margin: 0;
+
 }
 
 ul {
-    background-color: rgb(222, 223, 224);
+    background-color: rgb(111, 111, 111);
     border:solid;
     margin:10px;
     padding:10px;
     margin-right:auto;
     width:400px;
-    height:150px;
+    height:auto;
     flex-direction: column;
+  
 }
+
+button {
+    width: 125px;
+    height: 50px;
+    margin-right: 100px;
+    color: lightgray;
+    background-color: rgb(12, 0, 243);
+    border-radius: 100px;
+    float: right;
+}
+
+hr {
+  border: 1px solid black;  
+  margin:0;
+}
+
